@@ -19,8 +19,34 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
   }
+}
+
+.button-tag {
+  box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 75%);
+  background: white;
+  padding: .5rem;
+  border-radius: 6px;
+  color: black;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+.button-tag.js {
+  background: yellow;
+  color: black;
+}
+
+.button-tag.reactjs {
+  background-color: #282c34;
+  color: #61dafb;
+}
+
+.button-tag.nextjs {
+  background-color: #000;
+  color: #fff;
 }

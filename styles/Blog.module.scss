@@ -1,0 +1,44 @@
+.article {
+  border: 1px dashed white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  &:hover {
+    border: 1px solid white;
+
+    .title {
+      text-shadow: 1px 1px rgb(255 255 255 / 75%);
+    }
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title {
+    flex: 1;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .info {
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: flex-end;
+  }
+
+  .time {
+    font-size: .8rem;
+  }
+
+  code[class*="language-"],
+  pre[class*="language-"] {
+    line-height: 1.2;
+    font-size: 1rem;
+  }
+}
