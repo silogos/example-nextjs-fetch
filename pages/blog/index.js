@@ -33,7 +33,7 @@ export default function Home({ posts = [] }) {
   );
 }
 
-export async function getStaticPaths({ res }) {
+export async function getStaticPaths() {
   return {
     props: {
       posts: await getPosts(),
